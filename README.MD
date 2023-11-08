@@ -32,10 +32,10 @@ python gist_monitor.py
 
 ## Functionality
 
-`get_public_gists()`: Fetches the public gists from the specified GitHub user's account using the GitHub API.
-`load_last_run_date()`: Loads the last run date from the "last_run_date.txt" file. If the file doesn't exist, it returns an empty string.
-`save_last_run_date()`: Saves the last run date to the "last_run_date.txt" file.
-`main()`: The main function that orchestrates the checking of new gists since the last run and displays the available gists accordingly.
+- `get_public_gists()`: Fetches the public gists from the specified GitHub user's account using the GitHub API.
+- `load_last_run_date()`: Loads the last run date from the "last_run_date.txt" file. If the file doesn't exist, it returns an empty string.
+- `save_last_run_date()`: Saves the last run date to the "last_run_date.txt" file.
+- `main()`: The main function that orchestrates the checking of new gists since the last run and displays the available gists accordingly.
 
 ## Example Output
 
